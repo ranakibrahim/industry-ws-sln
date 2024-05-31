@@ -1,12 +1,12 @@
 import "./App.scss";
 import NavBar from "./components/NavBar/NavBar";
-import Quiz from "./components/Quiz/Quiz";
+import Headers from "./components/Headers/Headers";
 
 function App() {
   return (
     <>
       <NavBar />
-      <Quiz/>
+      <Headers />
     </>
   );
 }
