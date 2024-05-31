@@ -1,0 +1,38 @@
+@use "../../styles/partials/fonts";
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 4rem;
+  &__logo-list {
+    display: flex;
+    align-items: center;
+  }
+  
+  &__list {
+    display: flex;
+    list-style: none;
+    font-family: "Futura PT Demi";
+    gap: 3vh;
+    font-size: 18px;
+  }
+
+  &__item {
+    text-decoration: none;
+    cursor: pointer;
+    &:nth-child(1), &:hover {
+      border-bottom: 2px solid black;
+      padding-bottom: 8px;
+    }
+  }
+
+  &__search-profile {
+    display: flex;
+    gap: 10vh;
+    align-items: center
+  }
+
+  &__profile-icon {
+    width: 16px;
+  }
+}
