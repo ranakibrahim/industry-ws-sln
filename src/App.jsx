@@ -1,10 +1,12 @@
-import './App.css'
+import "./App.scss";
+import NavBar from "./components/NavBar/NavBar";
 
 function App() {
-
   return (
-    <div>Welcome to App.jsx</div>
-  )
+    <>
+      <NavBar />
+    </>
+  );
 }
 
-export default App
+export default App;

@@ -1,0 +1,50 @@
+.nav-bar__search {
+  //mobile
+  @include break-point.mobile {
+    margin-right: padding.$mobile-between-comp;
+    width: 100%;
+  }
+
+  //desktop
+  @include break-point.desktop {
+    width: 16rem;
+  }
+
+  .field {
+    display: flex;
+    justify-content: center;
+    border: 1px solid $mercury;
+    padding-left: 2.5rem;
+    background-color: $alabaster;
+    color: $black;
+    background-image: url("../../assets/icons/search-icon.svg");
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    background-position: 10px;
+    outline: none;
+    width: 100%;
+
+    //mobile
+    @include break-point.mobile {
+      min-height: 2.25rem;
+    }
+
+    //tablet
+    @include break-point.tablet {
+      min-height: 2.5rem;
+    }
+
+    //desktop
+    @include break-point.desktop {
+      min-height: 2.5rem;
+    }
+
+    &::placeholder {
+      color: $black;
+    }
+
+    &:focus {
+      border: 2px solid $blue;
+    }
+  }
+}
