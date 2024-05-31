@@ -1,7 +1,7 @@
 import "./App.scss";
 import NavBar from "./components/NavBar/NavBar";
 import Headers from "./components/Headers/Headers";
-import Questionnaire from "./components/Questionnaire/Questionnaire";
+import Questionnaire1 from "./components/Questionnaire1/Questionnaire1";
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <NavBar />
       <Headers />
       <main className="main">
-        <Questionnaire />
+        <Questionnaire1 />
       </main>
     </>
   );
