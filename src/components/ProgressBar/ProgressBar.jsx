@@ -1,6 +1,7 @@
 import "./ProgressBar.scss";
 import Progress from "../Progress/Progress";
 import { useState } from "react";
+import arrowIcon from '../../assets/icons/arrow-icon.svg'
 
 export default function ProgressBar() {
 
@@ -23,7 +24,10 @@ export default function ProgressBar() {
             {step}
         </div>
         <div className="progbar">
-        <button className="progbar__next-btn" onClick={handleNext}>Next</button>
+        <button className="progbar__next-btn" onClick={handleNext}>
+            Next 
+            <img className='progbar__next-btn-icon' src={ arrowIcon } alt='arrow'></img>
+        </button>
         <div className="progbar__container">
             <Progress totalSteps={totalSteps} step={step}/>
             <div className={`${step>=1 ? "progbar__step progbar__active" : "progbar__step"}`} onClick={()=>handleStepClick(1)}>1</div>
