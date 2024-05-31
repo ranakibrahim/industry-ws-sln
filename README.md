@@ -19,7 +19,7 @@ Our Industry Project WealthJourney Planner is a financial learning tool created 
 <img src="./src/assets/images/ws-logo-invert.png" width="350">
 
 
-### Team 6
+### Team 6: Simple Solutions
 Our team consisted of 5 software engineering students:
 - Lily Chen
 - Rana Ibrahim
@@ -34,7 +34,6 @@ How might we help Wealthsimple clients in Canada to improve their financial lite
 
 ### User & Market Research
 Our app today will focus on young Canadians, ranging between the ages of 18-35. Young Canadians today are facing a world with a diverse range of financial issues, including student debt, a precarious job market, record-breaking inflation and rising cost of living, and post-pandemic economic disruption. Nearly half of young Canadians are battling moderate to high debt, with 60% surviving paycheque to paycheque. According to StatsCanada, young households were spending 10 cents per dollar earned on debt in 2023, up from seven cents a dollar in 2022. These are just some of the facts that highlight a need for an increase in financial knowledge and literacy, especially tailored to each individual's unique situations. 
-
 
 
 ### Our Solution
@@ -79,3 +78,9 @@ Chatbot functionality that when the user asks various questions about their fina
 
 ### References
 - [Wealth Simple](https://www.wealthsimple.com/en-ca)
+- [5 ways young Canadians can prepare financially for what awaits in 2024](https://www.moneysense.ca/columns/making-it/5-ways-young-canadians-can-prepare-financially-for-next-year/)
+- [Affordability issues are ‘casting a shadow’ over young Canadians’ economic futures](https://globalnews.ca/news/10386858/affordability-issues-casting-a-shadow-over-young-canadians-economic-futures/)
+- [Nearly half of Canadians have lost sleep over financial stress, especially young people: survey](https://www.ctvnews.ca/business/nearly-half-of-canadians-have-lost-sleep-over-financial-stress-especially-young-people-survey-1.6474641)
+- [New and young Canadians driving growth of $2.4 trillion debt mountain](https://www.wealthprofessional.ca/news/industry-news/new-and-young-canadians-driving-growth-of-24-trillion-debt-mountain/385999#:~:text=Millennials%20recorded%20a%205%25%20rise,around%2038%25%20of%20all%20debt)
+- [Young Canadians Opting Out of Homeownership](https://www.linkedin.com/pulse/young-canadians-opting-out-homeownership-nesto-ca-jad1e/)
+- [Young money: four-in-five Canadian teens are highly motivated to become financially independent](https://www.rbc.com/newsroom/news/article.html?article=125850)
