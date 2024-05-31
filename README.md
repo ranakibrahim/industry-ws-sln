@@ -19,8 +19,7 @@ Our Industry Project WealthJourney Planner is a financial learning tool created 
 <img src="./src/assets/images/ws-logo-invert.png" width="350">
 
 
-### Team 
-❗️(team name)
+### Team 6
 Our team consisted of 5 software engineering students:
 - Lily Chen
 - Rana Ibrahim
@@ -58,19 +57,15 @@ After questionnaire completion, WealthJourney Planner continues to provide the u
 
 
 ### Demonstration
-Our demonstration guides you through the application from UserName's perspective, a 22-year old university graduate who is beginning the transition to career (<- ❗️update this to the correct info once I have it). 
+Project-related assets (eg. sample user profile, questionnaire and related endpoints) can be found [here](https://drive.google.com/drive/folders/1nT1kQ2eSx-ar7iAK1JKwhaD80V6zPw7Z?usp=sharing)
 
 As the user provides details on their financial situation, WealthJourney Planner is able to determine at which stage the user is positioned. The result of the questionnaire categorizes the user into one of the several groups and then returns learning resources to the user accordingly. 
 
 [WealthJourney Planner Mockups](./src/assets/mockups/WS-WealthJourney-PlannerMockup.pdf)
 
-On landing at the user's Wealthsimple account there will be two clickable cards that directs the user to two different learning pages, updated weekly. 
+A widget added on the landing dashboard at the user's Wealthsimple account, where two clickable cards will live that direct the user to two different personalized learning pages, updated weekly. 
 
 The number of resources presented to the user is not static; we are looking to build a product that guides the user along their financial journey, growing and moving with them.
-
-
-### Key Insights
-❗️(to be added)
 
 
 ### Possible Growth & Future Directions
