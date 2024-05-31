@@ -33,7 +33,8 @@ How might we help Wealthsimple clients in Canada to improve their financial lite
 
 
 ### User & Market Research
-❗️(to be added)
+Our app today will focus on young Canadians, ranging between the ages of 18-35. Young Canadians today are facing a world with a diverse range of financial issues, including student debt, a precarious job market, record-breaking inflation and rising cost of living, and post-pandemic economic disruption. Nearly half of young Canadians are battling moderate to high debt, with 60% surviving paycheque to paycheque. According to StatsCanada, young households were spending 10 cents per dollar earned on debt in 2023, up from seven cents a dollar in 2022. These are just some of the facts that highlight a need for an increase in financial knowledge and literacy, especially tailored to each individual's unique situations. 
+
 
 
 ### Our Solution
