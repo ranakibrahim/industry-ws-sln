@@ -1,0 +1,33 @@
+@use "../../styles/partials/fonts";
+
+.outer {
+    width: 904px;
+    height: auto;
+    // min-height: 506px;
+    border-radius: 16px;
+    box-shadow: 0px 2px 8px 0px #0000000A;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.title {
+    margin-bottom: 16px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+
+    &__input {
+        flex-direction: row;
+        margin-bottom: 16px;
+    }
+
+    &__button {
+        margin-bottom: 16px;
+    }
+
+}
