@@ -1,13 +1,19 @@
 import "./App.scss";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import HomePage from "./pages/HomePage/HomePage";
+import ResultsPage from "./pages/ResultsPage/ResultsPage";
 import NavBar from "./components/NavBar/NavBar";
-import Headers from "./components/Headers/Headers";
 
 function App() {
   return (
-    <>
-      <NavBar />
-      <Headers />
-    </>
+    <BrowserRouter>
+    <NavBar/>
+
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/results" element={<ResultsPage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
