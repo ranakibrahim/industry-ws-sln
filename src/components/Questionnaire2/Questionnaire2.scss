@@ -1,0 +1,45 @@
+@use "../../styles/partials/fonts"as *;
+@use "../../styles/partials/colours" as *;
+
+.outer {
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.title {
+    margin: 0;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    font-family: "Futura PT Demi";
+    font-size: 22px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__input {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 16px;        
+        align-self: flex-start;
+        margin-left: 45%;
+
+        // &--checkbox {
+        //     border-radius: 100%;
+        // }
+        
+        &--label {
+            font-family: "Futura PT Light";
+            font-size: 18px;
+            font-weight: 600;
+            color: $text-black;         
+        }
+    }
+
+}

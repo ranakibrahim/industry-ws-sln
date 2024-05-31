@@ -1,0 +1,29 @@
+@use "../../styles/partials/fonts";
+
+.navbar {
+  &__search {
+    width: 20rem;
+
+    .field {
+      font-family: "Futura PT Demi";
+      font-size: 18px;
+      display: flex;
+      justify-content: center;
+      border: 1px solid grey;
+      padding: 0.5rem 1rem 0.5rem 2.5rem;
+      background-color: white;
+      color: black;
+      background-image: url("../../assets/icons/search-icon.svg");
+      background-repeat: no-repeat;
+      border-radius: 18px;
+      background-position: 10px;
+      outline: none;
+      width: 100%;
+      min-height: 2rem;
+
+      &::placeholder {
+        color: grey;
+      }
+    }
+  }
+}

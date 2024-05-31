@@ -1,0 +1,21 @@
+@use "../../styles/partials/fonts";
+
+.headers {
+  text-align: center;
+  h1 {
+    font-size: 48px;
+    font-family: "Futura PT Demi";
+  }
+
+  h2 {
+    font-size: 18px;
+    font-family: "Futura PT Light";
+  }
+  .results-hidden {
+    display: none;
+  }
+}
+
+.text {
+  padding-bottom: 24px;
+}

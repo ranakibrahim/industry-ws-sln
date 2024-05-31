@@ -1,0 +1,17 @@
+@use "../../styles/partials/fonts" as *;
+@use "../../styles/partials/colours" as *;
+
+.progbar {
+  &__progress {
+    height: 2px;
+    background-color: lightgray;
+    width: 100%;
+    transition: all 0.4s ease-in;
+  }
+
+  &__progress-innerdiv {
+    height: 2px;
+    background-color: $text-black;
+    transition: all 0.4s ease-in;
+  }
+}
