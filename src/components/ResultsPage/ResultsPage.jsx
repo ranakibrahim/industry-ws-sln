@@ -1,11 +1,10 @@
-import Headers from "../../components/Headers/Headers";
+
 import "./ResultsPage.scss";
 import arrow from "../../assets/icons/arrow-icon.svg";
 
 export default function ResultsPage() {
   return (
     <>
-      <Headers />
       <main className="results">
         <section className="results__container">
           <div className="number-box">1</div>
