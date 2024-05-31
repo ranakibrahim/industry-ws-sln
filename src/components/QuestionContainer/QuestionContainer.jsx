@@ -1,6 +1,7 @@
-import "./ProgressBar.scss";
-import Progress from "../Progress/Progress";
 import { useState } from "react";
+import Progress from "../Progress/Progress";
+import "./QuestionContainer.scss";
+import Questionnaire1 from "../Questionnaire1/Questionnaire1"
 
 export default function ProgressBar() {
 
@@ -8,7 +9,7 @@ export default function ProgressBar() {
     const totalSteps = 6;
 
     function handleNext(){
-        if(step < 6){
+        if(step < totalSteps){
             setSteps((step)=> step+1);
         }
     }
@@ -16,11 +17,23 @@ export default function ProgressBar() {
     function handleStepClick(stepNumber){
         setSteps(stepNumber);
     }
+
+    function showQuestion(step){
+
+        switch(step){
+            case 1: return <Questionnaire1 />;
+            case 2: return <Questionnaire2 />
+            case 3: return <Questionnaire3 />
+            case 4: return <Questionnaire4 />
+            case 5: return <Questionnaire5 />
+        }
+      }
+
   return (
 
-    <>
-        <div className="content">
-            {step}
+    <main className="question__container">
+        <div className="question__content">
+            {showQuestion(step)}
         </div>
         <div className="progbar">
         <button className="progbar__next-btn" onClick={handleNext}>Next</button>
@@ -34,10 +47,9 @@ export default function ProgressBar() {
             <div className={`${step>=6 ? "progbar__results progbar__active" : "progbar__results"}`} onClick={()=>handleStepClick(6)}>Results</div>
         </div>
         </div>
-    </>
+    </main>
   )
-  function showQuestion({step}){
-    return <h2>{`my name is wowowo: ${step}`}</h2>
-  }
+  
+
 
 }
