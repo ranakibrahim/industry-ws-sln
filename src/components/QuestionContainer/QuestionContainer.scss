@@ -75,9 +75,31 @@
     }
 
     &__next-btn{
-        &:active{
+        position: relative;
+
+        &:hover{
             outline: none;
             transform: scale(0.98);
         }
+
+        background-color: $blue;
+        width: 198px;
+        height: 50px;
+        border-radius: 160px;
+        font-family: "Futura PT Demi";
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+        border: none;
+        font-size: 1rem;
+
+        &-icon {
+            width: 16px;
+            position: absolute;
+            top: 18px;
+            left: 117px;
+        }
+
+
     }
+
+
 }
