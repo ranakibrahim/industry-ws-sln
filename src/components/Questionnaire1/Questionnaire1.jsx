@@ -7,24 +7,24 @@ export default function Questionnaire1() {
             <form className="form">
                 <div className="form__question"></div>
                     <div className="form__input">
-                        <input type="checkbox" name="q11" value="q11"/>
-                        <label htmlFor="savings">A. Savings</label>
+                        <input className='form__input--checkbox' type="checkbox" name="q11" value="q11"/>
+                        <label className='form__input--label' htmlFor="savings">A. Savings</label>
                     </div>
                     <div className="form__input">
                         <input type="checkbox" name="q12" value="q12"/>
-                        <label htmlFor="savings">B. Chequing</label>
+                        <label className='form__input--label' htmlFor="savings">B. Chequing</label>
                     </div>
                     <div className="form__input">
                         <input type="checkbox" name="q13" value="q13"/>
-                        <label htmlFor="savings">C. TFSA</label>
+                        <label className='form__input--label' htmlFor="savings">C. TFSA</label>
                     </div>
                     <div className="form__input">
                         <input type="checkbox" name="q14" value="q14"/>
-                        <label htmlFor="savings">D. RRSP</label>
+                        <label className='form__input--label' htmlFor="savings">D. RRSP</label>
                     </div>
                     <div className="form__input">
                         <input type="checkbox" name="q11" value="q11"/>
-                        <label htmlFor="savings">E. FHSA</label>
+                        <label className='form__input--label' htmlFor="savings">E. FHSA</label>
                     </div>
                 {/* <div className="form__button">   
                     <button type="submit">Next</button>
