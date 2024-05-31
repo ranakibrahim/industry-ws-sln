@@ -1,5 +1,5 @@
-### Product Name
-# A financial navigation tool to make financial learning simple
+# Product Name
+### A financial navigation tool to make learning simple
 
 ![Three Wealthsimple branded coins over a black and white abstract backdrop](./src/assets/images/ws-coins2.png)
 
