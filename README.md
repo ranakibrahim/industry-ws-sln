@@ -16,9 +16,7 @@
 ### Introduction
 Our Industry Project 🔥/product name/ is a financial learning tool created for Wealthsimple, one of BrainStation's Industry Partners. This product was researched, designed, and produced during a 24-hour collaborative tech sprint from 30 May - 31 May 2024.  
 
----
-![Wealthsimple logo](./src/assets/images/ws.logo.png)
----
+<img src="./src/assets/images/ws.logo.png" width="350">
 
 
 ### Team 
