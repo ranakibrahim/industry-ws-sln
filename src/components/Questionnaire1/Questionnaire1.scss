@@ -1,0 +1,29 @@
+@use "../../styles/partials/fonts";
+
+.outer {
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.title {
+    margin: 0;
+    padding-bottom: 1rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+
+    &__input {
+        flex-direction: row;
+        margin-bottom: 16px;
+    }
+
+    &__button {
+        margin-bottom: 16px;
+    }
+
+}
