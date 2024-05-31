@@ -1,50 +1,29 @@
-.nav-bar__search {
-  //mobile
-  @include break-point.mobile {
-    margin-right: padding.$mobile-between-comp;
-    width: 100%;
-  }
+@use "../../styles/partials/fonts";
 
-  //desktop
-  @include break-point.desktop {
-    width: 16rem;
-  }
+.navbar {
+  &__search {
+    width: 20rem;
 
-  .field {
-    display: flex;
-    justify-content: center;
-    border: 1px solid $mercury;
-    padding-left: 2.5rem;
-    background-color: $alabaster;
-    color: $black;
-    background-image: url("../../assets/icons/search-icon.svg");
-    background-repeat: no-repeat;
-    border-radius: 4px;
-    background-position: 10px;
-    outline: none;
-    width: 100%;
+    .field {
+      font-family: "Futura PT Demi";
+      font-size: 18px;
+      display: flex;
+      justify-content: center;
+      border: 1px solid grey;
+      padding: 0.5rem 1rem 0.5rem 2.5rem;
+      background-color: white;
+      color: black;
+      background-image: url("../../assets/icons/search-icon.svg");
+      background-repeat: no-repeat;
+      border-radius: 18px;
+      background-position: 10px;
+      outline: none;
+      width: 100%;
+      min-height: 2rem;
 
-    //mobile
-    @include break-point.mobile {
-      min-height: 2.25rem;
-    }
-
-    //tablet
-    @include break-point.tablet {
-      min-height: 2.5rem;
-    }
-
-    //desktop
-    @include break-point.desktop {
-      min-height: 2.5rem;
-    }
-
-    &::placeholder {
-      color: $black;
-    }
-
-    &:focus {
-      border: 2px solid $blue;
+      &::placeholder {
+        color: grey;
+      }
     }
   }
 }
