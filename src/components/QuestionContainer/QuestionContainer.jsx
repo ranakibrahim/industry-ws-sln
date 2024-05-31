@@ -3,6 +3,11 @@ import Progress from "../Progress/Progress";
 import arrowIcon from '../../assets/icons/arrow-icon.svg'
 import "./QuestionContainer.scss";
 import Questionnaire1 from "../Questionnaire1/Questionnaire1"
+import Questionnaire2 from '../Questionnaire2/Questionnaire2'
+import Questionnaire3 from '../Questionnaire3/Questionnaire3'
+import Questionnaire4 from '../Questionnaire4/Questionnaire4'
+import Questionnaire5 from '../Questionnaire5/Questionnaire5'
+
 
 export default function ProgressBar() {
 
