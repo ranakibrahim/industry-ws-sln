@@ -1,4 +1,4 @@
-# Product Name
+# WealthJourney Planner
 ### Financial navigation made simple
 
 
@@ -14,13 +14,13 @@
 
 
 ### Introduction
-Our Industry Project 🔥/product name/ is a financial learning tool created for Wealthsimple, one of BrainStation's Industry Partners. This product was researched, designed, and produced during a 24-hour collaborative tech sprint from 30 May - 31 May 2024.  
+Our Industry Project WealthJourney Planner is a financial learning tool created for Wealthsimple, one of BrainStation's Industry Partners. This product was researched, designed, and produced during a 24-hour collaborative tech sprint from 30 May - 31 May 2024.  
 
-<img src="./src/assets/images/ws.logo.png" width="350">
+<img src="./src/assets/images/ws-logo-invert.png" width="350">
 
 
 ### Team 
-🔥(team name)
+❗️(team name)
 Our team consisted of 5 software engineering students:
 - Lily Chen
 - Rana Ibrahim
@@ -34,13 +34,13 @@ How might we help Wealthsimple clients in Canada to improve their financial lite
 
 
 ### User & Market Research
-🔥(to be added)
+❗️(to be added)
 
 
 ### Our Solution
-🔥/product name/ was imagined with user experience as the priority; how could we as developers create a space in which financial learning was continuous and accessible?
+WealthJourney Planner was imagined with user experience as the priority; how could we as developers create a space in which financial learning was continuous and accessible?
 
-Our solution utilizes user input in order to generate personalized recommendations and learning materials sourced from the Wealthsimple website. The quiz uses a number of questions to determine where in their financial journey the user is situated, taking into consideration their short-term and long-term goals when computing a result. 
+Our solution utilizes user input in order to generate personalized recommendations and learning materials sourced from the Wealthsimple website. The questionnaire uses a number of questions to determine where in their financial journey the user is situated, taking into consideration their short-term and long-term goals when computing a result. 
 
 We categorized the materials available on Weathsimple's site into seven groups based on if the user was just beginning their financial journey, or looking for more in depth knowledge to aid in portfolio growth (see below). 
 
@@ -52,17 +52,17 @@ We categorized the materials available on Weathsimple's site into seven groups b
 6. Growing Your Money
 7. Digital Currency
 
-Different quiz endpoints will return depending on how the user answers the questions. 
+Different questionnaire endpoints will return depending on how the user answers the questions. 
 
-After quiz completion, 🔥/product name/ continues to provide the user with educational resources in order to guide them and further clarify their saving priorities. If the user is looking to move in a different direction with their finances, the quiz can be completed again with these new considerations in mind. 🔥/product name/ then leverages the users past goals and new priorities to source different learning materials that align with their future goals.  
+After questionnaire completion, WealthJourney Planner continues to provide the user with educational resources in order to guide them and further clarify their saving priorities. If the user is looking to move in a different direction with their finances, the questionnaire can be completed again with these new considerations in mind. WealthJourney Planner then leverages the users past goals and new priorities to source different learning materials that align with their future goals.  
 
 
 ### Demonstration
-Our demonstration guides you through the application from UserName's perspective, a 22-year old university graduate who is beginning the transition to career (<- 🔥update this to the correct info once I have it). 
+Our demonstration guides you through the application from UserName's perspective, a 22-year old university graduate who is beginning the transition to career (<- ❗️update this to the correct info once I have it). 
 
-As the user provides details on their financial situation, 🔥/product name/ is able to determine at which stage the user is positioned. The result of the quiz categorizes the user into one of the several groups and then returns learning resources to the user accordingly. 
+As the user provides details on their financial situation, WealthJourney Planner is able to determine at which stage the user is positioned. The result of the questionnaire categorizes the user into one of the several groups and then returns learning resources to the user accordingly. 
 
-🔥(figma mockups here)
+[WealthJourney Planner Mockups](./src/assets/mockups/WS-WealthJourney-PlannerMockup.pdf)
 
 On landing at the user's Wealthsimple account there will be two clickable cards that directs the user to two different learning pages, updated weekly. 
 
@@ -70,7 +70,7 @@ The number of resources presented to the user is not static; we are looking to b
 
 
 ### Key Insights
-🔥(to be added)
+❗️(to be added)
 
 
 ### Possible Growth & Future Directions
