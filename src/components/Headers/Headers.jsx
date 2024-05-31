@@ -1,9 +1,7 @@
-import { useLocation } from "react-router-dom";
+/* eslint-disable react/prop-types */
 import "./Headers.scss";
 
-export default function Headers() {
-  const location = useLocation();
-  console.log(location.pathname)
+export default function Headers({step}) {
   return (
     <section className="headers">
       <h1>WealthJourney Planner</h1>
@@ -11,7 +9,7 @@ export default function Headers() {
         Get personalized product recommendations based on your financial
         priorities and goals!
       </h2>
-      <h2 className={location.pathname === "/" ? "results-hidden" : ""}>
+      <h2 className={step!== 6 ? "results-hidden" : ""}>
         These are our top recommendations for you to maximize financial growth.
         The top 2 results will show up in your Home dashboard until fulfilled.
       </h2>
